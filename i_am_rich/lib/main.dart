@@ -18,8 +18,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://image.freepik.com/free-photo/image-human-brain_99433-298.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
